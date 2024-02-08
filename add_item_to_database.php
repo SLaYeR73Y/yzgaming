@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $conn = new mysqli("localhost", "root", "lW-lYfoYuEdCy95x", "my_shop");
+    $conn = new mysqli("yzgaming-server.mysql.database.azure.com", "jhbvboxexz", "7O4P3407D6174D76$", "yzgaming-database");
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);

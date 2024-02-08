@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/png" href="icon.png">
+    <title>Controllers</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header class="site-header">
+      <img src="YZGaming.png" alt="YZ Gaming Logo" width="200" height="80 margin-left: 20px;">
+
+      
+          <!-- Search Bar start -->
+            
+              <!-- Search Bar start -->
+              <div class="search-bar">
+                <!-- Dropdown start -->
+                <div class="dropdown1">
+                  <div id="drop-text" class="dropdown-text">
+                      <span id="span">Everything</span>
+                      <i id="icon1" class="fa fa-chevron-down"></i>
+                  </div>
+              </div>
+              <ul id="list" class="dropdown-list">
+                  <li id="Everything" class="dropdown-list-item selected">Everything</li>
+                  <li id="Controllers" class="dropdown-list-item">Controllers</li>
+                  <li id="Video Games" class="dropdown-list-item">Video Games</li>
+              </ul>
+                        </div>
+              <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search Anything..." />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div id="search-list" class="search-list"></div>
+    
+    
+                
+              </div>
+
+
+        </div>
+                    <!-- Search box input ends -->
+      
+
+</div>
+          <!-- Custom dropdown for navigation links -->
+          <div class="dropdown">
+              <div class="hamburger-menu" onclick="toggleDropdown()">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+              </div>
+              <div class="dropdown-content">
+                <li><a href="index.html"><i class="icon-class home-icon"></i>Home</a></li>
+                <li><a href="Controllers.html"><i class="icon-class controllers-icon"></i>Controllers</a></li>
+                <li><a href="VIDEOGAMES.html"><i class="icon-class games-icon"></i>Video Games</a></li>
+              </div>
+                          </div>
+          </div>
+      </div>
+<!-- Open Cart BTN -->
+
+
+        
+  </header>
+  
+  <div class="items">
+    <div class="item">
+      <img src="Xbox.png" alt="Xbox Razer Controller" class="product-image" style="margin-top: 20px;" width="470" height="300">
+      <h2 id= 1 class="product-title" style="margin-top: 123px;">Xbox Razer Controller</h2>
+      <p class="product-price">$129.99</p>
+      <button class="buy-now" data-id="1">Buy Now</button>
+      <div class="product-details-container" data-product-id="1" style="display:none;">
+        <button class="btn-close" onclick="closeProductDetails(this)">×</button>
+
+        <div class="product-details">
+            <img src="Xbox.png" alt="Product Name" class="details-image"/>
+            <p class="details-description">Elevate your gaming experience with the Xbox Razer Controller. This high-performance controller is designed for precision and comfort, featuring customizable buttons and advanced technology for a competitive edge. Take control of your game and dominate the competition with the Xbox Razer Controller.</p>
+            
+        
+            <div class="details-colors">
+                <label for="color">Color:</label>
+                <select name="color" id="color">
+                    <option value="color1" style="text-align: left;">Black</option>
+                    <option value="color2" style="text-align: left;">Green</option>
+
+                </select>
+            </div>
+
+            <button class="add-to-cart-btn" id="1" onclick="closeProductDetails(this)" >Add to Cart</button>
+          
+          
+        </div>
+    </div>
+
+    </div>
+    
+                    <!-- PS5 Product-->
+
+    <div class="item">
+      <img src="PS5.png" alt="PS5 Controller" class="product-image" style="margin-top: 30px" >
+      <h2 class="product-title" style="margin-top: 85px;">PS5 Controller</h2>
+      <p class="product-price">$74.99</p>
+      <button class="buy-now" data-id="2">Buy Now</button>
+      <div class="product-details-container" data-product-id="2" style="display:none;">
+        <button class="btn-close" onclick="closeProductDetails(this)">×</button>
+        <div class="product-details">
+            <img src="PS5.png" alt="Product Name" class="details-image"/>
+            <p class="details-description">Immerse yourself in gaming excellence with the PS5 Controller. Featuring cutting-edge design and innovative features, the PS5 Controller delivers a responsive and immersive gaming experience. Elevate your gameplay to new heights with the PS5 Controller.</p>
+            
+       
+
+            <div class="details-colors">
+                <label for="color">Color:</label>
+                <select name="color" id="color">
+                    <option value="color1" style="text-align: left;">Black</option>
+                    <option value="color2" style="text-align: left;">White</option>
+                    <option value="color2" style="text-align: left;">Red</option>
+                    <option value="color2" style="text-align: left;">Blue</option>
+
+                </select>
+            </div>
+
+            <button class="add-to-cart-btn" id="2" onclick="closeProductDetails(this)">Add to Cart</button>
+
+        </div>
+    </div>
+
+    </div>
+                        <!-- PS5 Product-->
+
+    
+    <div class="item">
+      <img src="PS4.png" alt="PS4 Controller" class="product-image" width="340" height="250" style="margin-top: 10%;" />
+        <h2 style="color: #F0F8FF; margin-top: 70px;">PS4 Controller</h2> 
+        <p class="product-price" >$29.99</p>
+        <button class="buy-now" data-id="3">Buy Now</button>
+        <div class="product-details-container" data-product-id="3" style="display:none;">
+          <button class="btn-close" onclick="closeProductDetails(this)">×</button>
+  
+          <div class="product-details">
+              <img src="PS4.png" alt="Product Name" class="details-image"/>
+              <p class="details-description">Immerse yourself in gaming excellence with the PS4 Controller. Featuring cutting-edge design and innovative features, the PS4 Controller delivers a responsive and immersive gaming experience. Elevate your gameplay to new heights with the PS4 Controller.</p>
+              
+             
+  
+              <div class="details-colors">
+                  <label for="color">Color:</label>
+                  <select name="color" id="color">
+                      <option value="color1" style="text-align: left;">Black</option>
+                      <option value="color2" style="text-align: left;">White</option>
+                      <option value="color2" style="text-align: left;">Red</option>
+                      <option value="color2" style="text-align: left;">Blue</option>
+  
+                  </select>
+              </div>
+  
+              <button class="add-to-cart-btn" id="3" onclick="closeProductDetails(this)">Add to Cart</button>
+            
+            
+          </div>
+      </div>
+  
+      </div>        
+      </div>
+
+                         <!-- Nintendo Product-->
+
+                         <div class="item1">
+                          <img src="Nintendo.png" alt="Nintendo Controller" class="product-image1" style="margin-top: 20px;" width="20%" >
+                          <h2 id="product-title-4" style="color: #F0F8FF;">Nintendo Controller</h2>
+                          <p class="product-price">$69.99</p>
+                          <button class="buy-now" data-id="4">Buy Now</button>
+                          <div class="product-details-container" data-product-id="4" style="display:none;">
+                            <button class="btn-close2" onclick="closeProductDetails(this)">×</button>
+    
+            <div class="product-details">
+                <img src="Nintendo.png" alt="Product Name" width="84%"/>
+                <p class="details-description">Experience gaming bliss with the Nintendo Controller. Designed for precision and comfort, it guarantees a seamless and nostalgic gaming journey. Elevate your gameplay with this iconic controller.</p>
+                
+              
+    
+                <div class="details-colors">
+                    <label for="color">Color:</label>
+                    <select name="color" id="color">
+                        <option value="color1" style="text-align: left;">Black</option>
+                        <option value="color2" style="text-align: left;">White</option>
+                        </select>
+                </div>
+    
+                <button class="add-to-cart-btn" id="4" onclick="closeProductDetails(this)">Add to Cart</button>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+                         <!-- Nintendo Product-->
+
+    <script src="script.js" defer></script>
+
+    <footer>
+        <div class="footer-content">
+            <h3>YZ Gaming</h3>
+            <p>Elevate Your Game - Discover premium gear, exclusive titles, and the latest in gaming tech. Step into the spotlight with YZ Gaming Shop!</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+          
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2024 . designed by <span>Yazan Atary</span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

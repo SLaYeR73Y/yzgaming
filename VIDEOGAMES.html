@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <title>Video Games</title>
+    
+</head>
+
+<body>
+    
+
+    <!-- Header section -->
+    <header class="site-header">
+      <img src="YZGaming.png" alt="YZ Gaming Logo" width="200" height="80 ">
+
+          <!-- Search Bar start -->
+          <div class="search-bar">
+            <!-- Dropdown start -->
+            <div class="dropdown1">
+              <div id="drop-text" class="dropdown-text">
+                  <span id="span">Everything</span>
+                  <i id="icon1" class="fa fa-chevron-down"></i>
+              </div>
+          </div>
+          <ul id="list" class="dropdown-list">
+              <li id="Everything" class="dropdown-list-item selected">Everything</li>
+              <li id="Controllers" class="dropdown-list-item">Controllers</li>
+              <li id="Video Games" class="dropdown-list-item">Video Games</li>
+          </ul>
+                    </div>
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search Anything..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div id="search-list" class="search-list"></div>
+
+
+            
+          </div>
+
+        </div>
+                    <!-- Search box input ends -->
+                  </div>
+
+          <!-- Custom dropdown for navigation links -->
+          <div class="dropdown">
+              <div class="hamburger-menu" onclick="toggleDropdown()">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+              </div>
+              <div class="dropdown-content">
+                <li><a href="index.html"><i class="icon-class home-icon"></i>Home</a></li>
+                <li><a href="Controllers.html"><i class="icon-class controllers-icon"></i>Controllers</a></li>
+                <li><a href="VIDEOGAMES.html"><i class="icon-class games-icon"></i>Video Games</a></li>
+              </div>
+
+          </div>
+      </div>
+      
+  </header>
+
+
+
+
+
+
+  <table class="product-table" style="margin-top: 12px;">
+    <tr>
+        <td>
+          <div class="item">
+            <img src="ASV.jpg" alt="Assassin's Creed® Valhalla" width="400" height="220" />
+                <h2>Assassin's Creed® Valhalla</h2>
+                <p class="product-price"> $34.99</p>
+                <button class="buy-now" onclick="showProductDetails(this)">Buy Now</button>
+                <div class="product-details-container" data-product-id="5" style="display:none;">
+                  <button class="btn-close4" onclick="closeProductDetails(this)">×</button>
+          
+                  <div class="product-details">
+                      <img src="ASV.jpg" alt="Product Name" class="details-image"/>
+                      <p class="details-description">"Assassin's Creed Valhalla" is an open-world game set in Dark Ages England, where players, as Viking raider Eivor, engage in combat, stealth, and political intrigue, while exploring Norse mythology and building a Viking settlement.
+
+                      </p>
+                      
+                   
+          
+                      <div class="details-colors">
+                        <label for="color">Platform:</label>
+                        <select name="color" id="color">
+                            <option value="color1" style="text-align: left;">PS5</option>
+                            <option value="color2" style="text-align: left;">PS4</option>
+                            <option value="color2" style="text-align: left;">PC</option>
+                            <option value="color2" style="text-align: left;">XBOX</option>        
+        
+                          </select>
+                          <button class="btn-confirm-add-cart" onclick="closeProductDetails(this)">Add to Cart</button>
+
+                      </div>
+                      </div>
+        </td>
+        <td>
+          <div class="item">
+            <img src="TWWH.jpeg" alt="THE WITCHER WILD HUNT" width="400" height="222" />
+                <h2>THE WITCHER WILD HUNT</h2>
+                <p class="product-price">$49.99</p>
+                <button class="buy-now" onclick="showProductDetails(this)">Buy Now</button>
+                <div class="product-details-container" data-product-id="6" style="display:none;">
+                  <button class="btn-close3" onclick="closeProductDetails(this)">×</button>
+          
+                  <div class="product-details">
+                      <img src="TWWH.jpeg" alt="Product Name" class="details-image"/>
+                      <p class="details-description">Geralt of Rivia, a Witcher, searches for his prophetic daughter Ciri in a war-torn world filled with political intrigue and monstrous threats. He navigates a vast, dangerous landscape, using his skills to battle creatures and shape the world's destiny.
+
+
+                      </p>
+                      
+                     
+          
+                      <div class="details-colors">
+                          <label for="color">Platform:</label>
+                          <select name="color" id="color">
+                            <option value="color1" style="text-align: left;">PS5</option>
+                            <option value="color2" style="text-align: left;">PS4</option>
+                            <option value="color2" style="text-align: left;">PC</option>
+                            <option value="color2" style="text-align: left;">XBOX</option>
+          
+          
+                          </select>
+                          <button class="btn-confirm-add-cart" onclick="closeProductDetails(this)">Add to Cart</button>
+
+                      </div>
+                      </div>                </div>
+        </td>
+        <td>
+          <div class="item">
+            <img src="Fifa 23.jpeg" alt="FIFA 23" width="400" height="230" />
+                <h2>FIFA 23</h2>
+                <p class="product-price">$39.99</p>
+                <button class="buy-now" onclick="showProductDetails(this)">Buy Now</button>
+                <div class="product-details-container" data-product-id="7" style="display:none;">
+                  <button class="btn-close1" onclick="closeProductDetails(this)">×</button>
+          
+                  <div class="product-details">
+                      <img src="Fifa 23.jpeg" alt="Product Name" class="details-image"/>
+                      <p class="details-description"> "FIFA 23" players can engage in Career Mode, build their team in Ultimate Team, or compete online, offering a rich experience for both new and seasoned players in a dynamic and realistic football world.                      </p>
+                      
+         
+                      <div class="details-colors">
+                          <label for="color">Platform:</label>
+                          <select name="color" id="color">
+                            <option value="color1" style="text-align: left;">PS5</option>
+                            <option value="color2" style="text-align: left;">PS4</option>
+                            <option value="color2" style="text-align: left;">PC</option>
+                            <option value="color2" style="text-align: left;">XBOX</option>
+          
+                          </select>
+                          <button class="btn-confirm-add-cart" onclick="closeProductDetails(this)">Add to Cart</button>
+
+                      </div>
+                      </div>               
+            </div>
+            <tr>
+          <td>
+            <div class="item">
+              <img src="GOW.jpeg" alt="GOD OF WAR RAGNAROK" width="400" height="250" />
+                <h2>GOD OF WAR RAGNAROK</h2>
+                <p class="product-price">$29.99</p>
+                <button class="buy-now" onclick="showProductDetails(this)">Buy Now</button>
+                <div class="product-details-container" data-product-id="8" style="display:none;">
+                  <button class="btn-close1" onclick="closeProductDetails(this)">×</button>
+          
+                  <div class="product-details">
+                      <img src="GOW.jpeg" alt="Product Name" class="details-image"/>
+                      <p class="details-description"> 
+                        In the looming Fimbulwinter leading to Ragnarok, Kratos and his son Atreus confront Norse gods and monstrous threats. Haunted by his past, Kratos battles through icy terrains, facing deities like Thor. </p>
+                      
+        
+                      <div class="details-colors">
+                        <label for="color">Platform:</label>
+                        <select name="color" id="color">
+                            <option value="color1" style="text-align: left;">PS5</option>
+                            <option value="color2" style="text-align: left;">PS4</option>
+                            <option value="color2" style="text-align: left;">PC</option>
+                            <option value="color2" style="text-align: left;">XBOX</option>
+
+                          </select>
+                          <button class="btn-confirm-add-cart" onclick="closeProductDetails(this)">Add to Cart</button>
+                        </td>
+                     
+                     
+                                    
+                  
+                        <td>
+                          
+                          <div style="align-items: center;">
+                            <!-- Add Item Button -->
+                            <button class="add-item-btn" onclick="document.getElementById('addItemForm').style.display='block'">Add Item</button>
+                                          </div>
+                      
+
+                      <div id="addItemForm" style="display:none;">
+                        <form action="add_item_to_database.php" method="post" enctype="multipart/form-data">
+                          <label style="color: black;">Name:</label>
+                          <input type="text" name="name" required><br>
+                          <label style="color: black;">Price:</label>
+                          <input type="text" name="price" required><br>
+                          <input type="hidden" name="category_id" value="2"> <!-- This will send the category_id as 2 -->
+                          <!-- Inside your form -->
+                          <label for="platform" style="color: black;">Platform:</label>
+                          <div class="styled-select">
+                            <select name="platform" id="platform" required>
+                              <option value="PS5">PS5</option>
+                              <option value="PS4">PS4</option>
+                              <option value="Xbox">Xbox</option>
+                              <option value="PC">PC</option>
+                          </select>
+                          </div>
+                          
+                           </select>
+                          
+                          <input type="submit" value="Add Product">
+                        </form>
+                        
+                            
+
+
+                        </td>
+                      </tr>
+                      </table>
+                
+                      </div>
+                      </div>                    </div>
+      
+
+                      <style>
+                        .add-item-btn {
+  font-size: 16px;
+  padding: 10px 25px; 
+  color: #ffffff; 
+  background-color: #007bff; 
+  border: 2px solid transparent; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  margin-top: 10px; 
+  display: inline-block; 
+  text-align: center;
+}
+
+.add-item-btn:hover {
+  background-color: #0056b3; /* A darker blue on hover */
+  border-color: #004080; /* Darker border on hover if you have a border */
+}
+
+                        
+                        #addItemForm {
+                          display: none;
+                          background-color: white;
+                          padding: 20px;
+                          border-radius: 5px;
+                          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                          margin-top: 20px;
+                        }
+                        
+                        #addItemForm form {
+                          display: flex;
+                          flex-direction: column;
+                          width: 300px;
+                          height: 300px;
+                          margin: auto;
+                        }
+                        
+                        #addItemForm input[type=text],
+                        #addItemForm input[type=file] {
+                          margin-bottom: 10px;
+                          padding: 8px;
+                          border: 1px solid #ddd;
+                          border-radius: 4px;
+                        }
+                        
+                        #addItemForm input[type=submit] {
+                          padding: 10px 20px;
+                          background-color:blue;
+                          color: white;
+                          border: none;
+                          border-radius: 5px;
+                          cursor: pointer;
+                          font-size: 16px;
+                        }
+                        /* Add this to your CSS styles */
+.styled-select {
+    display: inline-block;
+    position: relative;
+}
+
+.styled-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px 30px 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px; /* Adjust the width as needed */
+    margin-bottom: 30px;
+}
+
+.styled-select:after {
+  content: "\25BC"; /* Unicode character for down arrow */
+  font-size: 18px;
+    color: #555;
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+                        </style>
+                        
+
+                   
+                      
+<div>
+    <script src="script.js" defer></script>
+    <div class="separator"></div>
+    <footer>
+      <div class="footer-content">
+          <h3>YZ Gaming</h3>
+          <p>Elevate Your Game - Discover premium gear, exclusive titles, and the latest in gaming tech. Step into the spotlight with YZ Gaming Shop!</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy;2024 . designed by <span>Yazan Atary</span></p>
+      </div>
+  </footer>
+  
+</div>
+</body>
+
+</html>
